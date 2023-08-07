@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.slackow.teamtracker.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "EntitySelectorMixin",
+    "EntitySelectorOptionsMixin",
+    "EntitySelectorReaderMixin",
+    "TeamCommandMixin",
+    "TeamMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

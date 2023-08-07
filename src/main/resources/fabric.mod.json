@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "efficient_teams",
+  "version": "${version}",
+  "name": "Efficient Teams",
+  "description": "Makes entity selectors with a team parameter like @e[team=tick] more efficient",
+  "authors": ["Slackow"],
+  "contact": {
+    "repo": "https://github.com/slackow/efficient_teams"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.slackow.teamtracker.Teamtracker"
+    ]
+  },
+  "mixins": [
+    "teamtracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*"
+  }
+}
