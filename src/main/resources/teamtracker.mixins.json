@@ -8,6 +8,7 @@
     "EntitySelectorMixin",
     "EntitySelectorOptionsMixin",
     "EntitySelectorReaderMixin",
+    "ServerScoreboardMixin",
     "TeamCommandMixin",
     "TeamMixin"
   ],
